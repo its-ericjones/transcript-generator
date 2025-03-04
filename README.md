@@ -30,7 +30,7 @@ The resulting text is formatted a bit oddly so I copy it all into a .txt file an
 
 ## Why Am I Trying to Create Something That Already Exists?
 
-Many ideas for side projects I've ended up abandoning because someone else out in the world had already done something similar, so what would be the point in doing it myself? It took me an, admittedly long time, to have this realization that ideas are still worth pursuing because I can still learn and takeaway something from the process. 
+Many ideas for side projects I've ended up abandoning because someone else out in the world had already done something similar, so what would be the point in doing it myself? It took me an, admittedly long time, to have this realization that even if part of my ideas have already been created, they are still worth pursuing because I can still learn and takeaway something from the process. 
 
   
 
@@ -40,7 +40,7 @@ Even though [Vibe](https://thewh1teagle.github.io/vibe/) does the majority of wh
 
 ## Podcasts Also?
 
-I tend to go in and out of phases when it comes to listening to podcasts - my podcast player of choice is [Overcast](https://overcast.fm) by Marco Arment. Recently I've been accessing the transcripts of podcast episodes as a different way to absorb their content. Most of the shows I listen to offer transcripts of episodes directly on their websites and as of March of 2024, the Apple Podcasts app now offers [transcripts directly](https://www.apple.com/newsroom/2024/03/apple-introduces-transcripts-for-apple-podcasts/) within the player. However, may main problem is that neither show websites nor Apple Podcasts offer transcripts for member-only feeds. 
+I tend to go in and out of phases when it comes to listening to podcasts - my podcast player of choice is [Overcast](https://overcast.fm) by Marco Arment. Recently I've been accessing the transcripts of podcast episodes as a different way to absorb their content. Most of the shows I listen to offer transcripts of episodes directly on their websites and as of March of 2024, the Apple Podcasts app now offers [transcripts directly](https://www.apple.com/newsroom/2024/03/apple-introduces-transcripts-for-apple-podcasts/) within the player. However, my main problem is that neither show websites nor Apple Podcasts offer transcripts for member-only feeds. 
 
   
 
