@@ -11,7 +11,7 @@ Instead of trying to take the time and manually transcribing the audio by hand, 
 
 The resulting text is formatted a bit oddly so I copy it all into a .txt file and upload it to chatGPT where I give a prompt to reformat into paragraphs that are easier to read.
 
-!(images/transcript-generator-current-method-workflow.jpg)
+![screenshot of current transiption workflow](images/transcript-generator-current-method-workflow.jpg)
 
 ## Why Am I Trying to Create Something That Already Exists?
 Many ideas for side projects I've ended up abandoning because someone else out in the world had already done something similar, so what would be the point in doing it myself? It took me an, admittedly long time, to have this realization that ideas are still worth pursuing because I can still learn and takeaway something from the process. 
