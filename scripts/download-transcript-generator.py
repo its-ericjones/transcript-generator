@@ -19,7 +19,9 @@ def download_audio(url):
     # Check if Apple Podcasts
     if "podcasts.apple.com" in url:
         rss_url = extract_rss_from_apple_podcasts(url)
-        return download_podcast_episode(rss_url) if rss_url else None
+        if rss_url:
+            return download_podcast_episode(rss_url)
+        return None
     
     # Try direct download or extracting from page
     try:
