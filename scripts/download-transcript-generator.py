@@ -19,9 +19,7 @@ def download_audio(url):
     # Check if Apple Podcasts
     if "podcasts.apple.com" in url:
         rss_url = extract_rss_from_apple_podcasts(url)
-        if rss_url:
-            return download_podcast_episode(rss_url)
-        return None
+        return download_podcast_episode(rss_url)
     
     # Try direct download or extracting from page
     try:
@@ -89,6 +87,10 @@ def extract_rss_from_apple_podcasts(url):
         return None
 
 def download_podcast_episode(rss_url):
+    # Handle None input case
+    if rss_url is None:
+        print("No valid RSS URL provided")
+        return None
     # Downloads the latest episode from a podcast RSS feed
     try:
         feed = feedparser.parse(rss_url)
