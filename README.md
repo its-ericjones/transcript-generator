@@ -31,8 +31,5 @@ The goal for this tool is to be able to take a video URL or podcast RSS feed, do
 ## Active To Do List
 Feel free to check out what parts of this project that I'm currently [working on](https://github.com/users/its-ericjones/projects/6).
 
-## Scripts
-Here you can find screenshots of scripts that I've created to help automate some of the setup process for certain components. 
-
-### Web Server Config Script for Linux (ran on local Raspberry Pi)
-![screenshot for raspberry pi web server config script](images/raspberry-pi-web-server-config-script.png)
+## Documentation
+[Documentation - HERE](./documentation.md)
