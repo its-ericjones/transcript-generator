@@ -26,7 +26,7 @@ I tend to go in and out of phases when it comes to listening to podcasts - my po
 
 ## My Goal
 
-The goal for this tool is to be able to take a video URL or podcast RSS feed, download the audio using [yt-dlp](https://github.com/yt-dlp/yt-dlp) (or a modified version of it), transcribe the audio file using an AI model, and have that transcription formatted into readable text.
+The goal for this tool - available to be used in a web browser - is to take a video URL or podcast RSS feed, download the audio using yt-dlp (or a modified version of it), transcribe the audio file using an AI model, and have that transcription formatted into readable text.
 
 ## Active To Do List
 1. Set up local web server
