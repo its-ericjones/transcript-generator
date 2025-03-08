@@ -43,7 +43,7 @@ The goal for this tool is to be able to take a video URL or podcast RSS feed, do
 
 ## Current Roadblocks
 - [ ] Test script on Intel chipset since it's been created on ARM
-- [ ] Issues running yt-dlp on machines other than my local one. Need to figure out how to get around the error: `ERROR: [youtube] kPJLj1xeRyg: Sign in to confirm you’re not a bot...`
+- [ ] Issues running yt-dlp on machines other than my local one. Need to figure out how to get around the error: `ERROR: [youtube] kPJLj1xeRyg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication...`
 
 ## Future Improvements
 - [ ] Allow user to manually choose a podcast they want to download from a show link
