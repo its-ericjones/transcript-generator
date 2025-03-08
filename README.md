@@ -29,7 +29,24 @@ I tend to go in and out of phases when it comes to listening to podcasts - my po
 The goal for this tool is to be able to take a video URL or podcast RSS feed, download the audio using [yt-dlp](https://github.com/yt-dlp/yt-dlp) (or a modified version of it), transcribe the audio file using an AI model, and have that transcription formatted into readable text.
 
 ## Active To Do List
-Feel free to check out what parts of this project that I'm currently [working on](https://github.com/users/its-ericjones/projects/6).
+1. Set up local web server
+	- [ ] Install LAMP stack dependencies
+	- [ ] How does the database play a part in the web application?
+	- [ ] How do I get a local python script to attach itself to a web interface element (button that user clicks)? 
+2. Create python script to handle the downloading of audio from a given URL
+	- [x]  If a URL starts with `https://www.youtube.com/watch?v=` then execute a function specific to stripping audio from video
+	- [x] If a URL has a Content-Type of `/audio` then execute a function specific for downloading the respective audio file
+	- [x] If a URL **does not match a YouTube scheme or Content-Type** then execute a function that finds any embedded audio files using the HTML `<audio>` tag
+	- [x] Once audio file has been downloaded, use whisper.cpp Python wrapper to transcribe audio into text https://huggingface.co/ggerganov/whisper.cpp/tree/main
+3. Once I have raw text, format it into a more readable layout 
+4. Somehow implement a way to have to saved to read-it-later service 
+
+## Current Roadblocks
+- [ ] Test script on Intel chipset since it's been created on ARM
+- [ ] Issues running yt-dlp on machines other than my local one. Need to figure out how to get around the error: `ERROR: [youtube] kPJLj1xeRyg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies`
+
+## Future Improvements
+- [ ] Allow user to manually choose a podcast they want to download from a show link
 
 ## Documentation
 [Documentation - HERE](./documentation.md)
