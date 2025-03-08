@@ -2,7 +2,7 @@
 
 ## Background
 
-I tend to save a lot of videos so that I can refer back to them at a later time when I'm reflecting on parts of my life. However, I'm realizing as I get older that reading content that I'm trying to absorb is more effective that passively watching or listening to it. Lately I've been trying a new technique of downloading the audio of videos, transcribing them, and then reading those transcriptions. So far this method seems to make everything "stick" more in my brain. 
+I tend to save a lot of videos so that I can refer back to them at a later time when I'm reflecting on parts of my life. However, I'm realizing as I get older that reading content that I'm trying to absorb is more effective than passively watching or listening to it. Lately I've been trying a new technique of downloading the audio of videos, transcribing them, and then reading those transcriptions. So far this method seems to make everything "stick" more in my brain. 
 
 ## My Current Process for Downloading and Transcribing
 
