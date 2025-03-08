@@ -82,7 +82,10 @@ def extract_rss_from_apple_podcasts(url):
         headers = {'User-Agent': 'Mozilla/5.0'}
         response = requests.get(url, headers=headers)
         feed_match = re.search(r'"feedUrl":\s*"([^"]+)"', response.text)
-        return feed_match.group(1) if feed_match else None
+        if feed_match:
+            return feed_match.group(1)
+        else:
+            return None
     except:
         return None
 
