@@ -60,35 +60,7 @@ def download_youtube_audio(youtube_url):
     except Exception as e:
         print(f"Error downloading YouTube audio: {e}")
         return None
-
-def download_direct_audio(url):
-    # Downloads audio from a direct URL
-    try:
-        response = requests.get(url, stream=True)
-        if response.status_code == 200:
-            filename = url.split("/")[-1]
-            with open(filename, "wb") as file:
-                for chunk in response.iter_content(1024):
-                    file.write(chunk)
-            print(f"Download complete: {filename}")
-            return filename
-    except requests.RequestException as e:
-        print(f"Error downloading file: {e}")
-    return None
-
-def extract_rss_from_apple_podcasts(url):
-    # Extracts RSS feed URL from Apple Podcasts page
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(url, headers=headers)
-        feed_match = re.search(r'"feedUrl":\s*"([^"]+)"', response.text)
-        if feed_match:
-            return feed_match.group(1)
-        else:
-            return None
-    except:
-        return None
-
+    
 def download_podcast_episode(rss_url):
     # Handle None input case
     if rss_url is None:
@@ -130,6 +102,34 @@ def download_podcast_episode(rss_url):
     except Exception as e:
         print(f"Error parsing podcast RSS: {e}")
         return None
+    
+def extract_rss_from_apple_podcasts(url):
+    # Extracts RSS feed URL from Apple Podcasts page
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, headers=headers)
+        feed_match = re.search(r'"feedUrl":\s*"([^"]+)"', response.text)
+        if feed_match:
+            return feed_match.group(1)
+        else:
+            return None
+    except:
+        return None
+
+def download_direct_audio(url):
+    # Downloads audio from a direct URL
+    try:
+        response = requests.get(url, stream=True)
+        if response.status_code == 200:
+            filename = url.split("/")[-1]
+            with open(filename, "wb") as file:
+                for chunk in response.iter_content(1024):
+                    file.write(chunk)
+            print(f"Download complete: {filename}")
+            return filename
+    except requests.RequestException as e:
+        print(f"Error downloading file: {e}")
+    return None
 
 def transcribe_audio(audio_file):
     # Transcribes audio using Whisper model
