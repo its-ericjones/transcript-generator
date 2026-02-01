@@ -1,1 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Models and large files
+models/
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# Audio/Video files
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.webm
+
+# Transcripts
+transcripts/
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Flask
+instance/
+.webassets-cache
+
+# Logs
+*.log
